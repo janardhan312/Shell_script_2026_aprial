@@ -8,7 +8,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 VALIDATE(){
-    if [ $1 -ne 0 ]; then
+    i  f [ $1 -ne 0 ]; then
 
         echo "Installing:: $2 is error"
         exit 1
